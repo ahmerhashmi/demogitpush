@@ -13,8 +13,8 @@ public class loginPage {
 	@Test
   public void f() {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS;	
-		driver.findElement(By.name("email")).sendKeys("ahmer24");
-		driver.findElement(By.name("pass")).sendKeys("ahmer24");
+		driver.findElement(By.name("email")).sendKeys("*******");
+		driver.findElement(By.name("pass")).sendKeys("*******");
 		driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
   }
   
